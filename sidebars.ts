@@ -17,6 +17,7 @@ const sidebars: SidebarsConfig = {
       label: '🔧 Model Dossiers',
       items: [
         'models/BES870',
+        'models/BES800ES',
       ],
     },
   ],
