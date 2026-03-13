@@ -30,6 +30,7 @@ const config: Config = {
           routeBasePath: '/',
         },
         blog: false,
+        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
