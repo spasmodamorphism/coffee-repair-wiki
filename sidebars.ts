@@ -18,6 +18,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'models/BES870',
         'models/BES800ES',
+        'models/BES920',
       ],
     },
   ],
