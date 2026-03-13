@@ -104,8 +104,8 @@ Use a multimeter set to appropriate ranges. Ensure machine is **disconnected fro
 
 | Component | Test Method | Expected Reading | Fault Indication |
 |---|---|---|---|
-| **Pump Assembly** | Resistance across pump terminals (disconnected) | ~5–15Ω (verify against spec) | Open circuit = dead winding; very low = shorted |
-| **Water Valve (Solenoid)** | Resistance across coil terminals | ~50–200Ω (typical solenoid) | Open = no actuation; shorted = may blow fuse |
+| **Pump Assembly** | Resistance across pump terminals (disconnected) | ~1.1–1.3 MΩ pin-to-pin *(field-verified, 240V AU vibratory pump)* | Open circuit (OL) = dead winding; very low = shorted |
+| **Water Valve (Solenoid)** | Resistance across coil terminals | ~2.2–2.5 kΩ *(field-verified, 240V AU)* | Open = no actuation; shorted = may blow fuse |
 | **Thermoblock Element** | Resistance across heating element terminals | ~40–50Ω at room temp (1200W @ 240V = 48Ω) | Open = no heat; significantly low = element damaged |
 | **Thermostat 96°C** | Continuity at room temp | Closed (continuity) | Open at room temp = failed open (no heat) |
 | **Thermostat 140°C** | Continuity at room temp | Closed (continuity) | Open at room temp = tripped/failed; may reset on cooling |
