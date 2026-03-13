@@ -270,7 +270,7 @@ This design is cheap, compact, and has no mains isolation — but it is critical
 |---|---|---|
 | 0.82µF (nominal) | ~62mA | Normal operation |
 | ~0.6µF | ~45mA | Marginal — may fail under load |
-| ~0.5µF or less | <43mA | Dim LEDs, pump stutters or stops when heater is also on |
+| ~0.5µF or less | &lt;43mA | Dim LEDs, pump stutters or stops when heater is also on |
 | Near open circuit | ~0mA | Machine completely dead |
 
 **How to test C1:**
@@ -364,7 +364,7 @@ Machine works sometimes, but pump stops or LEDs dim when heating ─┐
                                                │
                           ┌────────────────────┴────────────────────┐
                           ▼                                          ▼
-                  C1 < 0.7µF or open                        C1 reads OK (~0.82µF)
+                  C1 &lt; 0.7µF or open                        C1 reads OK (~0.82µF)
                           │                                          │
                           ▼                                          ▼
               Replace C1 with 0.82µF X2               Check V++ rail voltage (~27V)
